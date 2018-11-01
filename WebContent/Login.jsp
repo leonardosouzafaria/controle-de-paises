@@ -15,29 +15,29 @@
 
 <body>
 	<c:import url="Menu.jsp"/>
-    <div id="main" class="container">
+    <main id="main" class="container">
        <h3 class="page-header">Login</h3>
         <form action="controller.do" method="post">
-				<div class="row col-md-12">
-				<div class="form-group">
-					<div class="input-group col-md-4">
-					   <div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div> 
-					   <input name="username" id="username" class="form-control" maxlength="60" placeholder="Usuário" required/>
-					</div>
+			<div class="row col-md-12">
+			<div class="form-group">
+				<div class="input-group col-md-4">
+				   <div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div> 
+				   <input name="username" id="username" class="form-control" maxlength="60" placeholder="Usuário" required/>
 				</div>
-				<div class="form-group">
-					<div class="input-group col-md-4">
-					   <div class="input-group-addon"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></div> 
-					   <input type="password" name="passwd" id="passwd" class="form-control" placeholder="Senha" required/>
-					</div>
+			</div>
+			<div class="form-group">
+				<div class="input-group col-md-4">
+				   <div class="input-group-addon"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></div> 
+				   <input type="password" name="passwd" id="passwd" class="form-control" placeholder="Senha" required/>
 				</div>
-				</div>
-				<div class="row col-md-12">
-					<button type="submit" class="btn btn-primary" name="command" value="FazerLogin">
-					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Entrar</button>
-				</div>
-			</form>    
-		</div>
+			</div>
+			</div>
+			<div class="row col-md-12">
+				<button type="submit" class="btn btn-primary" name="command" value="FazerLogin">
+				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Entrar</button>
+			</div>
+		</form>    
+	</main>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
