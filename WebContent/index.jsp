@@ -15,10 +15,10 @@
 
 <body>
 	<c:import url="Menu.jsp"/>
-    <div id="main" class="container">
+    <main id="main" class="container">
         <h3 class="page-header">Controle de Países</h3>
 
-    </div>
+    </main>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
